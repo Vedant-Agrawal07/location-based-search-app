@@ -1,0 +1,15 @@
+.body{
+  margin: 0;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  background-color: cyan;
+  /* display: flex; */
+  /* justify-content: center; */
+  z-index: 10001;
+}
+
+.image{
+  width: 50px;
+  height: 60px;
+}

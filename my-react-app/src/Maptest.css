@@ -1,0 +1,26 @@
+.leaflet-container{
+  height: 100vh;
+  
+}
+.locate{
+  z-index: 100;
+}
+
+.mapArea{
+  position: relative;
+}
+
+.filter{
+  display: inline-block;
+  position: absolute;
+  top: 10px; /* Adjust positioning */
+  left: 20px; /* Adjust positioning */
+  z-index: 1000; /* Ensure it stays above the map */
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
