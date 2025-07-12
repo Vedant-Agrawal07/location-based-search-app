@@ -142,7 +142,7 @@ function MapTest() {
       method: "GET",
       headers: {
         accept: "application/json",
-        Authorization: import.meta.env.VITE_API_KEY,
+        Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
       },
     };
 
