@@ -178,7 +178,7 @@ function MapTest() {
         location_data = data.results.map((result) => ({
           place_name: result.name,
           place_prefix: result.categories[0].icon.prefix,
-          place_prefix: result.categories[0].icon.suffix,
+          place_suffix: result.categories[0].icon.suffix,
           place_address: result.location.formatted_address,
           lat: result.geocodes.main.latitude,
           lon: result.geocodes.main.longitude,
